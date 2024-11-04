@@ -1,5 +1,5 @@
 import Golf6 from "../images/cars-big/golf6.jpg";
-import AudiA1 from "../images/cars-big/audia1.jpg";
+import Clio5 from "../images/cars-big/renault-clio-cinq.jpg";
 import Toyota from "../images/cars-big/toyotacamry.jpg";
 import Bmw320 from "../images/cars-big/bmw320.jpg";
 import Benz from "../images/cars-big/benz.jpg";
@@ -22,12 +22,12 @@ export const CAR_DATA = [
   ],
   [
     {
-      name: "Audi A1 S-Line",
+      name: "Renault Clio 5",
       price: "45",
-      img: AudiA1,
-      model: "Audi",
-      mark: "A1",
-      year: "2012",
+      img: Clio5,
+      model: "Clio",
+      mark: "5",
+      year: "2019",
       doors: "4/5",
       air: "Yes",
       transmission: "Manual",

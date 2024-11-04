@@ -5,9 +5,9 @@ function Banner() {
         <div className="container">
           <div className="banner-content">
             <div className="banner-content__text">
-              <h2>Save big with our cheap car rental!</h2>
+              <h2>Faîtes des économies et bénéficiez de discounts sur les longues périodes!</h2>
               <p>
-                Top Airports. Local Suppliers. <span>24/7</span> Support.
+                Tous les aéroports du Royaume Du Maroc. Suivi. <span>24/7</span> Support.
               </p>
             </div>
           </div>

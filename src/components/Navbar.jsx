@@ -62,33 +62,23 @@ function Navbar() {
           <ul className="navbar__links">
             <li>
               <Link className="home-link" to="/">
-                Home
+                Accueil
               </Link>
             </li>
             <li>
               {" "}
               <Link className="about-link" to="/about">
-                About
+                A propos de
               </Link>
             </li>
-            <li>
-              {" "}
-              <Link className="models-link" to="/models">
-                Vehicle Models
-              </Link>
-            </li>
+            
             <li>
               {" "}
               <Link className="testi-link" to="/testimonials">
-                Testimonials
+                Témoignages
               </Link>
             </li>
-            <li>
-              {" "}
-              <Link className="team-link" to="/team">
-                Our Team
-              </Link>
-            </li>
+            
             <li>
               {" "}
               <Link className="contact-link" to="/contact">
@@ -96,14 +86,7 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          <div className="navbar__buttons">
-            <Link className="navbar__buttons__sign-in" to="/">
-              Sign In
-            </Link>
-            <Link className="navbar__buttons__register" to="/">
-              Register
-            </Link>
-          </div>
+         
 
           {/* mobile */}
           <div className="mobile-hamb" onClick={openNav}>

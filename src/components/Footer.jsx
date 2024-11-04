@@ -6,11 +6,11 @@ function Footer() {
           <div className="footer-content">
             <ul className="footer-content__1">
               <li>
-                <span>CAR</span> Rental
+                <span>Abderrahim Cars</span> Rental
               </li>
               <li>
-                We offers a big range of vehicles for all your driving needs. We
-                have the perfect car to meet your needs.
+                
+                Nous proposons une large gamme de véhicules pour tous vos besoins de conduite. Nous avons la voiture parfaite pour répondre à vos attentes.
               </li>
               <li>
                 <a href="tel:123456789">
@@ -35,7 +35,7 @@ function Footer() {
                   rel="noreferrer"
                   href="https://devrahuls.vercel.app/"
                 >
-                  Design with ❤️ by Rahul
+                  Design by Yahya Elfaqir
                 </a>
               </li>
             </ul>

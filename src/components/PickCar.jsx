@@ -20,11 +20,10 @@ function PickCar() {
         <div className="container">
           <div className="pick-container">
             <div className="pick-container__title">
-              <h3>Vehicle Models</h3>
-              <h2>Our rental fleet</h2>
+              <h3>Nos modèles</h3>
+              <h2>Notre vaisseau</h2>
               <p>
-                Choose from a variety of our amazing vehicles to rent for your
-                next adventure or business trip
+                Choisissez un véhicule selon vos besoins : voyages d'affaires, voyages en famille ...
               </p>
             </div>
             <div className="pick-container__car-content">
@@ -37,7 +36,7 @@ function PickCar() {
                     btnID("btn1");
                   }}
                 >
-                  Audi A1 S-Line
+                  Renault Clio 5
                 </button>
                 <button
                   className={`${coloringButton("btn2")}`}

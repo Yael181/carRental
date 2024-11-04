@@ -19,26 +19,26 @@ function CarBox({ data, carID }) {
           {/* description */}
           <div className="pick-description">
             <div className="pick-description__price">
-              <span>${car.price}</span>/ rent per day
+              <span>{car.price} MAD</span>/ jour
             </div>
             <div className="pick-description__table">
               <div className="pick-description__table__col">
-                <span>Model</span>
+                <span>Véhicule</span>
                 <span>{car.model}</span>
               </div>
 
               <div className="pick-description__table__col">
-                <span>Mark</span>
+                <span>Modèle</span>
                 <span>{car.mark}</span>
               </div>
 
               <div className="pick-description__table__col">
-                <span>Year</span>
+                <span>Année</span>
                 <span>{car.year}</span>
               </div>
 
               <div className="pick-description__table__col">
-                <span>Doors</span>
+                <span>Portes</span>
                 <span>{car.doors}</span>
               </div>
 
@@ -53,14 +53,12 @@ function CarBox({ data, carID }) {
               </div>
 
               <div className="pick-description__table__col">
-                <span>Fuel</span>
+                <span>Carburant</span>
                 <span>{car.fuel}</span>
               </div>
             </div>
             {/* btn cta */}
-            <a className="cta-btn" href="#booking-section">
-              Reserve Now
-            </a>
+            
           </div>
         </div>
       ))}

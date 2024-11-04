@@ -9,35 +9,35 @@ function PlanTrip() {
         <div className="container">
           <div className="plan-container">
             <div className="plan-container__title">
-              <h3>Plan your trip now</h3>
-              <h2>Quick & easy car rental</h2>
+              <h3>Plannifiez vos besoins auto</h3>
+              <h2> On s'occupe du reste </h2>
             </div>
 
             <div className="plan-container__boxes">
               <div className="plan-container__boxes__box">
                 <img src={SelectCar} alt="icon_img" />
-                <h3>Select Car</h3>
+                <h3>Qualité & Assurance</h3>
                 <p>
-                  We offers a big range of vehicles for all your driving needs.
-                  We have the perfect car to meet your needs
+                Nos véhicules subissent des suivis dans les plus grandes maisons d'entretien du royaume & sont assurés pour tous vos besoins. 
+                Nous avons la voiture parfaite pour répondre à vos attentes
                 </p>
               </div>
 
               <div className="plan-container__boxes__box">
                 <img src={Contact} alt="icon_img" />
-                <h3>Contact Operator</h3>
+                <h3>Suivi & Support</h3>
                 <p>
-                  Our knowledgeable and friendly operators are always ready to
-                  help with any questions or concerns
+                  Nous sommes toujours à votre disposition 24/7 pour un service client optimal, toujours prêts à vous 
+                  supporter, car votre satisfaction est notre priorité!
                 </p>
               </div>
 
               <div className="plan-container__boxes__box">
                 <img src={Drive} alt="icon_img" />
-                <h3>Let's Drive</h3>
+                <h3> Pick Up & Delivery</h3>
                 <p>
-                  Whether you're hitting the open road, we've got you covered
-                  with our wide range of cars
+                  Pour vous éviter des conflits temporelles, et une plannification optimale de votre expérience auto,
+                  le service Pick Up du véhicule et Delivery du véhicule sont là pour vous faciliter le séjour.
                 </p>
               </div>
             </div>
